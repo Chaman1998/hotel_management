@@ -1,0 +1,253 @@
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+    }
+/*================================================*/
+.div_login{
+    height: auto;
+    width: 100%;
+    background-color: #130f40;
+}
+.ul_login {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li_login {
+    float: right;
+}
+
+.lgn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.lgn:hover {
+    cursor: pointer;
+    background-color: #D5A677;
+    border-radius: 5px;
+}
+.login :hover{
+    background-color: #130f40;
+    cursor: default;
+}
+/*================================================*/
+.div_login{
+    height: auto;
+    width: 100%;
+    background-color: #130f40;
+}
+.ul_login {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li_login {
+    float: right;
+}
+
+.lgn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.lgn:hover {
+    cursor: pointer;
+    background-color: #D5A677;
+    border-radius: 5px;
+}
+.login :hover{
+    background-color: #130f40;
+    cursor: default;
+}
+/*================================================*/
+
+    .d1{
+        width: auto;
+        height: 10px;
+        background-color: blue;
+    }
+    .img1{
+        margin: 2px;
+        width: 100px;
+        height: 90px;
+    }
+    .hh{
+        font-size: 5vw;
+        font-style: italic;
+        text-shadow: 5px 5px #bdc3c7;
+    }
+    .d2{
+        max-width: auto;
+        height: auto;
+        background-color: blue;
+    }
+    .b1{
+        width: auto;
+        border: 0px;
+        font-size: 1vw;
+        padding: 8px;
+        color: white;
+        background-color: blue;
+    }
+    button:hover{
+        background-color: #192a56;
+        border-radius: 8px;
+    }
+    .d3{
+        width: 500px;
+        height: auto;
+        text-align: left;
+    }
+
+/*================================================*/
+
+
+.contact
+{
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	cursor: pointer;
+    margin: 5px;
+}
+.contact.active
+{
+	width: 800px;
+	min-height: 400px;
+}
+.contact.active:hover
+{
+	background: #fff;
+	color: #000;
+}
+.contact:hover
+{
+	background: #000;
+	color: #fff;
+}
+.contact h2
+{
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.contact h2 span
+{
+	display: inline-block;
+}
+.contact.active h2 span
+{
+	transform: rotate(45deg);
+	float: right;
+}
+form
+{
+	padding: 20px;
+	box-sizing: border-box;
+}
+form .row
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+form .row .col-2
+{
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+form .row .col-2:nth-child(odd)
+{
+	margin-right: 10px;
+}
+form .row .col-2:nth-child(even)
+{
+	margin-left: 10px;
+}
+form .row .col-1
+{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.contact label
+{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.contact input.text,
+.contact select,
+.contact textarea
+{
+	width: 100%;
+	border: 2px solid #000;
+	padding: 10px;
+	outline: none;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: consolas;
+	resize: none;
+}
+.contact textarea
+{
+	height: 150px;
+}
+.contact input[type="submit"]
+{
+	border: 2px solid #000;
+	padding: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: consolas;
+	outline: none;
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+}
+.contact form
+{
+	visibility: hidden;
+	display: none;
+}
+.contact.active form
+{
+	visibility: visible;
+	display: block;
+}
+/*===========================================================*/
+
+.select_form select{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.select_form input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}

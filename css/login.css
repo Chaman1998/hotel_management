@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #311B92;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.loginbox
+{
+    position: absolute;
+    padding: 40px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: auto;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.limage
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+.loginbox h2
+{
+    margin: 30px 0 30px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+}
+.loginbox .inputbox
+{
+    position: relative;
+    
+}
+.loginbox .inputbox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.loginbox .inputbox label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.loginbox .inputbox input:focus ~ label,
+.loginbox .inputbox input:valid ~ label
+{
+    top: -30px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 22px;
+}
+.loginbox .lremind
+{
+    padding: 0;
+    margin: -10px 0 20px;
+    font-size: 15px;
+    color: #fff;
+}
+.loginbox input[type="Submit"]
+{
+    margin: 0 0 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.loginbox input[type="Submit"]:hover
+{
+    background: #283593;
+    color: #fff;
+}
+.loginbox a
+{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}

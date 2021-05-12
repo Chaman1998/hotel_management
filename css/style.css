@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:20');
+*{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #ecf0f1;
+}
+
+/*=========================================================*/
+.div_login{
+    height: auto;
+    width: 100%;
+    background-color: #130f40;
+}
+.ul_login {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li_login {
+    float: right;
+}
+
+.lgn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.lgn:hover {
+    cursor: pointer;
+    background-color: #ff267e;
+    color: #fff;
+    border-radius: 5px;
+}
+.login :hover{
+    background-color: #130f40;
+    cursor: default;
+}
+/*=========================================================*/
+header{
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(255,255,255,.2);
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    color: 
+}
+.logo{
+    height: 50px;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 50px;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.logo:hover{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    padding: 5px 0;
+    float: right;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 2px;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+nav ul li a.active,nav ul li a:hover{
+    border-bottom: 3px solid rgba(0, 184, 148,1.0);
+    transition: 0.5s;
+    text-decoration: none;
+    color: #fff;
+}
+.progress-container {
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+}
+
+.progress-bar {
+    height: 2px;
+    background: rgba(0,0,0,0.5);
+    width: 0%;
+}
+/*===========================================================*/
+.sec1{
+    background: url(image/8.jpg);
+    height: 560px; 
+    min-width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*===========================================================*/
+.sec2{
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+    background: #dfe4ea;
+}
+.ca{
+    color: #00b894;
+    font: 3em;
+    text-align: center;
+}
+.sec2_div{
+    margin: auto;
+    width: 95%;
+    border: 1px;
+    padding: 10px;
+    
+}
+.sec2_form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.sec2_form label {
+    margin: 5px 10px 5px 0;
+}
+.sec2_form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.sec2_form select{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.sec2_form button {
+    padding: 10px 20px;
+    background-color: #00b894;
+    border: 1px solid #ddd;
+    color: #dcdde1;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.sec2_form button:hover {
+    background-color: #2f3640;
+}
+/*===========================================================*/
+.sec3{
+    background: #ecf0f1;
+}
+/*===========================================================*/
+
+/*===========================================================*/
+.sec4, .sec6{
+    background: #dfe4ea;
+}
+/*===========================================================*/
+.content_head{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 3em;
+}
+/*===========================================================*/
+.divi{
+    margin-top: 20px;
+    padding: 20px;
+}
+/*===========================================================*/
+.gallery{
+    margin: auto;
+}
+.gallery_img{
+    margin: 12px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*===========================================================*/
+
+.sec6_div{
+    margin: auto;
+    width: 30%;
+    border: 1px;
+    padding: 10px;
+}
+.sec6_form{
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 25px;
+}
+.sec6_form input {
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.sec6_form textarea{
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.sec6_form button {
+    font-size: 25px;
+    width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.sec6_form button:hover {
+    background-color: #2f3640;
+    color: white;
+}
+/*===========================================================*/
+  .modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+.modal_form{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 25px;
+}
+.modal_form label {
+    margin: 5px 10px 5px 0;
+}
+.modal_form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.modal_form p{
+    vertical-align: middle;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+.modal_form button {
+    padding: 10px 20px;
+    background-color: #00b894;
+    border: 1px solid #ddd;
+    color: #dcdde1;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.modal_form button:hover {
+    background-color: #2f3640;
+}
+
+/*===========================================================*/
+footer{
+    background: #2f3640;
+    height: auto;
+    padding: 40px;
+    margin: 0;
+    color: white;
+    position: relative;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:20');
+*{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #ecf0f1;
+}
+.form_div{
+    margin: auto;
+    width: 45%;
+    border: 1px;
+    padding: 10px;
+}
+.booking_form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.booking_form label {
+    margin: 5px 10px 5px 10px;
+    text-align: left;
+}
+.booking_form input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.booking_form select{
+    vertical-align: middle;
+    margin: 5px 10px 5px 10px;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.booking_form button {
+    padding: 10px 20px;
+    margin: 5px 10px 5px 10px;
+    background-color: #00b894;
+    border: 1px solid #ddd;
+    color: #dcdde1;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.booking_form button:hover {
+    background-color: #2f3640;
+}
